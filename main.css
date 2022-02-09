@@ -459,9 +459,9 @@ img{
     }
 
     .main_description{
-        font-size: 2rem;
+        font-size: 3rem;
         letter-spacing: 0px;
-        margin-bottom: 1em;
+        margin-bottom: 0.75em;
     }
 
     .section_work{
