@@ -307,7 +307,6 @@ img{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    font-size: 0.875rem;
     font-weight: var(--font-weight_bold);
     margin-top: 0.25em;
 }
