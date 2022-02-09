@@ -1,2 +1,2 @@
-# portfolio_website-jv
-personal portfolio site
+# j00stan.github.io
+A Personal Portfolio Website Journey
