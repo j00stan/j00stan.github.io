@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-typeface: aktiv-grotesk, sans-serif;
+    --font-weight_light: 300;
+    --font-weight_bold: 700;
+    --primary-color: black;
+    --secondary-color: white;
+    --accent-color: #ccff00;
+    --grid:
+    minmax(1em, 12%)
+    repeat(6, 1fr)
+    minmax(1em, 12%);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: var(--grid);
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+}
+
+body{
+    background-color: var(--secondary-color);
+    font-family: var(--primary-typeface);
+    font-size: 0.875rem;
+    font-weight: var(--font-weight_light);
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4{
+    line-height: 1;
+}
+
+iframe{
+    width: auto;
+    height: auto;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img_outline{
+    border: solid #e5e5e5 0.5px;
+}
+
+.project_main{
+    font-weight: var(--font-weight_bold);
+}
+
+.aside_left{
+    grid-column: 2/5;
+}
+
+.aside_right{
+    grid-column: 5/8;
+}
+
+.col_2-4{
+    grid-column: 2/4;
+}
+
+.col_4-6{
+    grid-column: 4/6;
+}
+
+.col_6-8{
+    grid-column: 6/8;
+}
+
+.header{
+    position: sticky;
+    height: 1.5rem;
+    top: 0;
+    left: 0.5em;
+    right: 0.5em;
+    z-index: 2;
+    background-color: var(--secondary-color);
+    border-bottom: solid var(--accent-color) 1px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 8rem;
+    align-items: center;
+}
+
+.nav_logo{
+    grid-column: 1/2;
+    display: flex;
+    justify-self: center;
+    background-blend-mode: difference;
+    width: 2.125rem;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0.5em;
+    font-size: 0.875rem;
+}
+
+.nav_list-item{
+    list-style: none;
+}
+
+.nav_list-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_list-link:hover{
+    color: var(--accent-color);
+}
+
+.main{
+    margin: 1.25rem 0;
+}
+
+.section_showcase{
+    position: relative;
+    padding-bottom: 7rem;
+}
+
+.showcase_video{
+    position: relative;
+    grid-column: 4/6;
+    width: 100%;
+    height: auto;
+    padding-bottom: 56.25%;
+}
+
+.showcase_video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
