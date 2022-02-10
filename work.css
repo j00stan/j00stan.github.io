@@ -38,10 +38,6 @@ body{
     justify-self: center;
 }
 
-.outline{
-    border: solid 1px #c5c5c5
-}
-
 .col_2-4{
     grid-column: 2/4;
 }
