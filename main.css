@@ -281,7 +281,7 @@ img{
 }
 
 .work_reveal:nth-of-type(5){
-    grid-column: 3/7;
+    grid-column: 4/6;
 }
 
 .section_info{
@@ -414,7 +414,7 @@ img{
     }
     
     .work_reveal:nth-of-type(5){
-        grid-column: 2/6;
+        grid-column: 3/5;
     }
 
     .info_intro{
@@ -505,6 +505,8 @@ img{
     
     .work_reveal:nth-of-type(5){
         grid-column: 2/5;
+        justify-self: center;
+        width: 60%;
     }
 
     .section_info{
