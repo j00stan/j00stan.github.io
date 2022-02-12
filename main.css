@@ -119,7 +119,7 @@ img{
     left: 0;
     right: 88%;
     z-index: 1;
-    height: 8.25rem;
+    height: 8.375rem;
     align-items: center;
 }
 
@@ -340,7 +340,7 @@ img{
     background-color: var(--accent-color);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
 
     :root{
         --grid:

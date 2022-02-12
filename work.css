@@ -90,7 +90,7 @@
     grid-column: 3/4;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
 
     .grid{
         grid-row-gap: 1em;
