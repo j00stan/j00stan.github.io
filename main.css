@@ -239,12 +239,12 @@ img{
     display: block;
 }
 
-.work_link:hover + .work_reveal:nth-of-type(3)
+.work_link:hover + .work_reveal:nth-of-type(3),
 .work_link:focus + .work_reveal:nth-of-type(3){
     display: block;
 }
 
-.work_link:hover + .work_reveal:nth-of-type(4)
+.work_link:hover + .work_reveal:nth-of-type(4),
 .work_link:focus + .work_reveal:nth-of-type(4){
     display: block;
 }
