@@ -1,5 +1,3 @@
-const mediumZoomMin = require("./medium-zoom.min");
-
-mediumZoomMin(document.querySelectorAll('img', {
+mediumZoom('.zoom', {
     margin: 50
-}))
+})
