@@ -1,5 +1,3 @@
-const mediumZoomMin = require("./medium-zoom.min");
-
 const faders = document.querySelectorAll('.fade');
 
 const appearOptions = {
@@ -26,7 +24,3 @@ faders.forEach(fader => {
     appearOnScroll.observe(fader);
 
 });
-
-mediumZoom('.zoom', {
-    margin: 50
-})
