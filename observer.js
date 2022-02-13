@@ -1,7 +1,7 @@
 const faders = document.querySelectorAll('.fade');
 
 const appearOptions = {
-    threshold: 0.5
+    threshold: .75
 };
 
 const appearOnScroll = new IntersectionObserver
@@ -24,3 +24,7 @@ faders.forEach(fader => {
     appearOnScroll.observe(fader);
 
 });
+
+mediumZoom('.zoom', {
+    margin: 50
+})
