@@ -1,3 +1,5 @@
+const mediumZoomMin = require("./medium-zoom.min");
+
 const faders = document.querySelectorAll('.fade');
 
 const appearOptions = {
