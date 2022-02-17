@@ -327,7 +327,7 @@ img{
     top: 0;
     right: 0;
     transform: translate(-50%, 0%);
-    width: 50%;
+    width: 25%;
 }
 
 .underline:hover + .info_reveal{
