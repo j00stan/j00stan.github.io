@@ -19,6 +19,23 @@
     minmax(1em, 12%);
 }
 
+.cursor{
+    position: fixed;
+    pointer-events: none;
+    background-color: --primary-color;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100vh;
+    transform: translate(-50%, -50%);
+    transition: 0.1s ease-in;
+    mix-blend-mode: difference;
+}
+
+.work_link:hover ~ .cursor{
+    transform: scale(2);
+    transition: 0.1s ease-out;
+}
+
 .grid{
     display: grid;
     grid-template-columns: var(--grid);
