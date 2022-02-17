@@ -2,6 +2,10 @@
     grid-row-gap: 2em;
 }
 
+.center{
+    place-items: center;
+}
+
 .fade{
     opacity: 0;
     transition: opacity .3s ease-in;
