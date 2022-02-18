@@ -240,7 +240,7 @@ img{
 }
 
 .work_link:hover::after,
-.work_link::focus::after{
+.work_link:focus::after{
     transform: rotate(90deg);
     transition: transform .2s ease-in;
 }
