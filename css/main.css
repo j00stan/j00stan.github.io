@@ -87,7 +87,7 @@ h4{
 }
 
 .btn::after{
-    content: '→';
+    content: '\2197';
     display: inline-block;
     margin-left: .5em;
     transition: transform .2s ease-in-out;
@@ -227,8 +227,22 @@ img{
     font-weight: var(--font-weight_light);
 }
 
-.work_link:hover{
+.work_link::after{
+    position: absolute;
+    content: '\2197';
+    right: 0;
+    transition: transform .2s ease-out;
+}
+
+.work_link:hover,
+.work_link:focus{
     color: var(--accent-color);
+}
+
+.work_link::after:hover,
+.work_link::after:focus{
+    transform: rotate(90deg);
+    transition: transform .2s ease-in;
 }
 
 .work_link:hover + .work_reveal:nth-of-type(1),
