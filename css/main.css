@@ -239,8 +239,8 @@ img{
     color: var(--accent-color);
 }
 
-.work_link::after:hover,
-.work_link::after:focus{
+.work_link:hover::after,
+.work_link::focus::after{
     transform: rotate(90deg);
     transition: transform .2s ease-in;
 }
