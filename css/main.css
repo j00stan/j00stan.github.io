@@ -105,9 +105,11 @@ img{
 
 .header{
     position: sticky;
+    display: flex;
+    align-items: center;
     top: 0;
     z-index: 3;
-    height: 1.625rem;
+    height: 2rem;
     margin: 0 0.5rem;
     background-color: var(--secondary-color);
     border-bottom: solid var(--accent-color) 1px;
@@ -119,7 +121,7 @@ img{
     left: 0;
     right: 87.5%;
     z-index: 1;
-    height: 8.375rem;
+    height: 9.375rem;
     align-items: center;
 }
 
