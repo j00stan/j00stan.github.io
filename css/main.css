@@ -298,6 +298,7 @@ img{
 }
 
 .section_info{
+    position: relative;
     padding: 3rem 0;
 }
 
@@ -340,13 +341,11 @@ img{
 .info_reveal{
     display: none;
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 0%);
-    width: 25%;
+    align-self: center;
+    grid-column: 3/4;
 }
 
-.underline:hover + .info_reveal{
+.info_intro:hover + .info_reveal{
     display: block;
 }
 
