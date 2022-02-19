@@ -230,7 +230,7 @@ img{
 .work_link::after{
     position: absolute;
     content: '↗';
-    margin-left: 0.5em;
+    margin-left: 0.375em;
     transition: transform .2s ease-out;
 }
 
