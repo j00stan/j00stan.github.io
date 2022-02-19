@@ -87,7 +87,7 @@ h4{
 }
 
 .btn::after{
-    content: '\2197';
+    content: '→';
     display: inline-block;
     margin-left: .5em;
     transition: transform .2s ease-in-out;
