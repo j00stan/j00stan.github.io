@@ -324,14 +324,12 @@ img{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    font-weight: var(--font-weight_bold);
     text-transform: uppercase;
     margin-top: 0.25em;
 }
 
 .info_list-link{
     color: inherit;
-    text-decoration: underline;
 }
 
 .info_list-link:hover{
