@@ -555,7 +555,7 @@ img{
     }
 
     .info_reveal{
-        grid-column: 3/4;
+        grid-column: 2/5;
     }
 
 }
