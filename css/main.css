@@ -367,7 +367,9 @@ img{
     display: none;
     position: absolute;
     align-self: center;
-    grid-column: 3/4;
+    justify-self: center;
+    grid-column: 2/5;
+    width: 40%;
 }
 
 .info_intro:hover + .info_reveal{
@@ -579,6 +581,7 @@ img{
 
     .info_reveal{
         grid-column: 2/5;
+        width: 100%;
     }
 
     .info_list + .btn_wrapper{
