@@ -306,7 +306,7 @@ img{
     width: max-content;
     grid-column: 2/8;
     font-size: 2rem;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.625em;
 }
 
 .info_about{
