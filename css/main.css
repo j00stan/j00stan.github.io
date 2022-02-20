@@ -51,6 +51,7 @@ h4{
 .underline{
     cursor: pointer;
     text-decoration: underline;
+    text-decoration-thickness: 2.5px;
 }
 
 .underline:hover{
