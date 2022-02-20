@@ -88,7 +88,8 @@ h4{
 }
 
 .btn::after{
-    content: '→';
+    content: '↗';
+    font-family: monospace;
     display: inline-block;
     margin-left: .5em;
     transition: transform .2s ease-in-out;
@@ -151,7 +152,7 @@ img{
 .main_description{
     font-size: 5rem;
     letter-spacing: -2px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.625em;
 }
 
 .main_background{
@@ -230,6 +231,7 @@ img{
 
 .work_link::after{
     position: absolute;
+    font-family: monospace;
     content: '↗';
     margin-left: 0.375em;
     transition: transform .2s ease-out;
@@ -378,6 +380,7 @@ img{
 
     .nav{
         right: 0;
+        height: 10.375rem;
     }
 
     .nav_logo{
@@ -401,7 +404,7 @@ img{
     }
 
     .main_intro{
-        font-size: 1rem;
+        font-size: 1.125rem;
     }
 
     .main_description{
@@ -411,16 +414,10 @@ img{
 
     .work_intro{
         grid-column: 2/6;
-        font-size: 2.25rem;
     }
 
     .work_link{
         grid-column: 2/6;
-        font-size: 2.25rem;
-    }
-
-    .work_link::after{
-        content: '';
     }
 
     .work_reveal:nth-of-type(1){
@@ -445,7 +442,8 @@ img{
 
     .info_intro{
         grid-column: 2/6;
-        font-size: 2.25rem;
+        font-size: 1.75rem;
+        margin-bottom: 0.75em;
     }
 
     .info_about{
