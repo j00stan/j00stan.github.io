@@ -321,15 +321,15 @@ img{
     margin-top: 1em;
 }
 
-.info_description + .btn_wrapper{
-    margin-top: 1em;
-}
-
 .info_list{
     display: flex;
     flex-direction: column;
     list-style-type: none;
     margin-top: 0.25em;
+}
+
+.info_list + .btn_wrapper{
+    margin-top: 1em;
 }
 
 .info_list-link{
