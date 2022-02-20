@@ -88,7 +88,7 @@ h4{
 }
 
 .btn::after{
-    content: '\2197\00FE0E';
+    content: '\2197\FE0E';
     display: inline-block;
     margin-left: .5em;
     transition: transform .2s ease-in-out;
@@ -230,7 +230,7 @@ img{
 
 .work_link::after{
     position: absolute;
-    content: '\2197\00FE0E';
+    content: '\2197\FE0E';
     margin-left: 0.375em;
     transition: transform .2s ease-out;
 }
