@@ -562,6 +562,10 @@ img{
         grid-column: 2/5;
     }
 
+    .info_list + .btn_wrapper{
+        margin-top: 1.875em;
+    }
+
 }
 
 @media (prefers-color-scheme: dark) {
