@@ -345,6 +345,24 @@ img{
     color: var(--accent-color);
 }
 
+#linkedin::before{
+    font: var(--fa-font-brands);
+    content: '\f0e1';
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 0.25em;
+}
+
+#instagram::before{
+    font: var(--fa-font-brands);
+    content: '\f16d';
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 0.25em;
+}
+
 .info_reveal{
     display: none;
     position: absolute;
