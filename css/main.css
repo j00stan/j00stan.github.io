@@ -308,8 +308,8 @@ img{
 .info_intro{
     width: max-content;
     grid-column: 2/8;
-    font-size: 2rem;
-    margin-bottom: 0.625em;
+    font-size: 1.75rem;
+    margin-bottom: 0.75em;
 }
 
 .info_about{
@@ -459,12 +459,6 @@ img{
     
     .work_reveal:nth-of-type(5){
         grid-column: 3/5;
-    }
-
-    .info_intro{
-        grid-column: 2/6;
-        font-size: 1.75rem;
-        margin-bottom: 0.75em;
     }
 
     .info_about{
