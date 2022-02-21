@@ -522,6 +522,7 @@ img{
     }
 
     .main_background:nth-of-type(2){
+        top: 3em;
         grid-column: 4/5;
         width: 90%;
     }
