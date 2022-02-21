@@ -225,6 +225,7 @@ img{
     text-decoration: none;
     color: inherit;
     grid-column: 2/8;
+    width: fit-content;
     font-size: 2.5rem;
     letter-spacing: -0.125px;
     font-weight: var(--font-weight_light);
