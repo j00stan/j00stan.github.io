@@ -385,7 +385,7 @@ img{
     background-color: var(--accent-color);
 }
 
-@media only screen and (min-width: 120em){
+@media only screen and (min-width: 100em){
 
     .main{
         padding: 15rem 0;
