@@ -431,6 +431,7 @@ img{
     .main_description{
         font-size: 4.5rem;
         letter-spacing: -1px;
+        margin-bottom: 0.625em;
     }
 
     .work_intro{
@@ -511,7 +512,6 @@ img{
     .main_description{
         font-size: 2.5rem;
         letter-spacing: 0px;
-        margin-bottom: 0.625em;
     }
 
     .main_background:nth-of-type(2){
