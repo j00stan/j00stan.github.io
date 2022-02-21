@@ -385,7 +385,7 @@ img{
     background-color: var(--accent-color);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 64rem) {
 
     :root{
         --grid:
@@ -476,7 +476,7 @@ img{
     
 }
 
-@media only screen and (max-width: 468px){
+@media only screen and (max-width: 34rem){
 
     :root{
         --grid:
