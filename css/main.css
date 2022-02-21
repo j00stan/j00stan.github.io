@@ -462,16 +462,15 @@ img{
     }
 
     .info_about{
-        grid-column: 2/6;
+        grid-column: 2/4;
     }
 
     .info_resume{
-        grid-column: 2/6;
-        margin-top: 1.375em;
+        grid-column: 4/6;
     }
 
     .info_reveal{
-        grid-column: 3/5;
+        grid-column: 2/6;
     }
     
 }
