@@ -30,6 +30,7 @@ html{
 }
 
 body{
+    color: var(--primary-color);
     background-color: var(--secondary-color);
     font-family: var(--primary-typeface);
     font-size: 1rem;
