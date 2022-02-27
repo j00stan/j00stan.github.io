@@ -396,15 +396,24 @@ img{
     }
 
     .section_work{
-        padding: 3.5rem 0;
+        padding: 4.5rem 0;
     }
 
     .work_intro{
         font-size: 3rem;
+        margin-bottom: 0.875em;
     }
 
     .work_link{
         font-size: 3rem;
+    }
+
+    .section_info{
+        padding: 4rem 0;
+    }
+
+    .info_intro{
+        font-size: 2.125rem;
     }
 
 }
