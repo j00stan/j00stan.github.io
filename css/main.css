@@ -14,9 +14,9 @@
     --secondary-color: white;
     --accent-color: #39ff14;
     --grid:
-    minmax(1em, 12%)
+    minmax(1em, 10%)
     repeat(6, 1fr)
-    minmax(1em, 12%);
+    minmax(1em, 10%);
 }
 
 .grid{
@@ -120,7 +120,7 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    right: 87.5%;
+    right: 88.5%;
     z-index: 1;
     height: 9.375rem;
     align-items: center;
