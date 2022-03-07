@@ -103,7 +103,7 @@
     height: 100%;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 64em) {
 
     .grid{
         grid-row-gap: 1em;
@@ -151,7 +151,7 @@
 
 }
 
-@media only screen and (max-width: 468px){
+@media only screen and (max-width: 34em){
 
     .col_2-4{
         grid-column: 2/5;
