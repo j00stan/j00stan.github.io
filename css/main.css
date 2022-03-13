@@ -215,7 +215,7 @@ img{
 
 .work_intro{
     grid-column: 2/8;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     letter-spacing: -0.125px;
     margin-bottom: 0.75em;
 }
@@ -225,7 +225,7 @@ img{
     text-decoration: none;
     color: inherit;
     grid-column: 2/8;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     letter-spacing: -0.125px;
     font-weight: var(--font-weight_light);
 }
@@ -308,7 +308,7 @@ img{
 .info_intro{
     width: max-content;
     grid-column: 2/8;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-bottom: 0.75em;
 }
 
