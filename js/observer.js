@@ -1,4 +1,4 @@
-$(".main-background").fadeIn(2000)
+$(".main_background").fadeIn(2000, "swing")
 
 const faders = document.querySelectorAll('.fade');
 
