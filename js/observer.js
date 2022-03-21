@@ -1,3 +1,5 @@
+$(".main-background").fadeIn(2000, "swing")
+
 const faders = document.querySelectorAll('.fade');
 
 const appearOptions = {
