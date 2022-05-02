@@ -1,3 +1,3 @@
 mediumZoom('.zoom', {
-    margin: 20
+    margin: 50
 })
