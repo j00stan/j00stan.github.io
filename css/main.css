@@ -357,6 +357,15 @@ img{
     margin-right: 0.5em;
 }
 
+#email::before{
+    font: var(--fa-font-solid);
+    content: '\40';
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 0.5em;
+}
+
 .info_reveal{
     display: none;
     position: absolute;
