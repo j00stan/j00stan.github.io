@@ -63,6 +63,10 @@
     grid-column: 2/8;
 }
 
+.col_3-7{
+    grid-column: 3/7;
+}
+
 .col_4-6{
     grid-column: 4/6;
 }
@@ -79,8 +83,27 @@
     grid-column: 6/8;
 }
 
-.project_landing{
-    padding: 1.25rem 0;
+.project_info{
+    grid-column: 2/8;
+    margin: 1.25rem 0;
+}
+
+.project_number{
+    font-size: 1rem;
+}
+
+.project_title{
+    font-size: 2.75rem;
+    font-weight: var(--font-weight-light);
+    letter-spacing: -1px;
+    margin-bottom: 0.125em;
+}
+
+.work_divider{
+    grid-column: 2/8;
+    z-index: -2;
+    height: 1px;
+    background-color: var(--accent-color);
 }
 
 .project_showcase{
@@ -96,6 +119,21 @@
 }
 
 .showcase_wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.showcase_wrapper_thin{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    grid-column: 4/6;
+}
+
+.showcase_wrapper_thin iframe{
     position: absolute;
     top: 0;
     left: 0;
