@@ -214,6 +214,7 @@ img{
 
 .work_link{
     position: relative;
+    cursor: pointer;
     text-decoration: none;
     color: inherit;
     grid-column: 2/8;
