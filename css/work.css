@@ -42,7 +42,7 @@
 }
 
 .btn_wrapper{
-    padding: 4em 0;
+    padding: 1em 0;
     align-self: center;
     justify-self: center;
 }
@@ -92,7 +92,7 @@
 
 .project_showcase{
     position: relative;
-    padding-top: 2em;
+    padding-top: 1.25em;
     padding-bottom: 4em
 }
 
