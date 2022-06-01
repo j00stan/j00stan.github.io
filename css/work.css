@@ -83,21 +83,6 @@
     grid-column: 6/8;
 }
 
-.project_info{
-    grid-column: 2/8;
-    margin: 1.25rem 0;
-}
-
-.project_number{
-    font-size: 1rem;
-}
-
-.project_title{
-    font-size: 2.75rem;
-    font-weight: var(--font-weight-light);
-    letter-spacing: -1px;
-}
-
 .work_divider{
     grid-column: 2/8;
     z-index: -2;
@@ -107,7 +92,8 @@
 
 .project_showcase{
     position: relative;
-    padding-bottom: 2em
+    padding-top: 2em;
+    padding-bottom: 4em
 }
 
 .showcase_wrapper{
@@ -115,6 +101,17 @@
     padding-bottom: 56.25%;
     height: 0;
     grid-column: 2/8;
+}
+
+
+.project_number{
+    font-size: 1rem;
+}
+
+.project_title{
+    font-size: 2.75rem;
+    font-weight: var(--font-weight-light);
+    letter-spacing: -1px;
 }
 
 .showcase_wrapper iframe{
