@@ -520,10 +520,6 @@ img{
         grid-column: 1/6;
     }
 
-    .btn{
-        font-size: 0.75rem;
-    }
-
     .nav{
         height: 10rem;
     }
