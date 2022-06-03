@@ -528,6 +528,17 @@ img{
         grid-column: 2/5;
     }
 
+    .btn_wrapper{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+    }
+
+    .btn + .btn{
+        margin-top: 1em;
+        margin-left: 0;
+    }
+
     .main_landing{
         grid-column: 2/5;
     }
@@ -619,21 +630,6 @@ img{
 
     .info_list + .btn_wrapper{
         margin-top: 1.875em;
-    }
-
-}
-
-@media only screen and (max-width: 23em){
-    
-    .btn_wrapper{
-        display: flex;
-        flex-direction: column;
-        width: max-content;
-    }
-
-    .btn + .btn{
-        margin-top: 1em;
-        margin-left: 0;
     }
 
 }
