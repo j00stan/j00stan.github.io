@@ -541,8 +541,8 @@ img{
     }
 
     .main_description{
-        font-size: 2.5rem;
-        letter-spacing: 0px;
+        font-size: 3rem;
+        letter-spacing: -0.5px;
     }
 
     .main_background:nth-of-type(1){
@@ -552,19 +552,19 @@ img{
     }
 
     .section_work{
-        padding: 1.875rem 0;
+        padding: 2rem 0;
     }
 
     .work_intro{
         grid-column: 2/5;
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: 0px;
         margin-bottom: 0.625em;
     }
 
     .work_link{
         grid-column: 2/5;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .work_reveal + .work_link{
@@ -587,24 +587,24 @@ img{
     .work_reveal:nth-of-type(4){
         grid-column: 2/5;
         justify-self: center;
-        width: 60%;
+        width: 70%;
     }
     
     .work_reveal:nth-of-type(5){
         grid-column: 2/5;
         justify-self: center;
-        width: 60%;
+        width: 70%;
     }
 
     .section_info{
-        padding: 2.25rem 0;
+        padding: 2.375rem 0;
     }
 
     .info_intro{
         grid-column: 2/5;
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: 0px;
-        margin-bottom: 0.625em;
+        margin-bottom: 0.75em;
     }
 
     .info_about{
