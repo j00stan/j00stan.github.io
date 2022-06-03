@@ -227,7 +227,8 @@
 @media only screen and (max-width: 34em){
 
     .project_title{
-        font-size: 2.5rem;
+        font-size: 1.75rem;
+        letter-spacing: -0.5px;
     }
 
     .col_2-4{

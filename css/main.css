@@ -541,7 +541,7 @@ img{
     }
 
     .main_description{
-        font-size: 3rem;
+        font-size: 2.75rem;
         letter-spacing: -0.5px;
     }
 
@@ -552,19 +552,19 @@ img{
     }
 
     .section_work{
-        padding: 2rem 0;
+        padding: 2.5rem 0;
     }
 
     .work_intro{
         grid-column: 2/5;
-        font-size: 2rem;
+        font-size: 1.75rem;
         letter-spacing: 0px;
         margin-bottom: 0.625em;
     }
 
     .work_link{
         grid-column: 2/5;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .work_reveal + .work_link{
@@ -602,7 +602,7 @@ img{
 
     .info_intro{
         grid-column: 2/5;
-        font-size: 2rem;
+        font-size: 1.625rem;
         letter-spacing: 0px;
         margin-bottom: 0.75em;
     }
