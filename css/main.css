@@ -6,6 +6,24 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: "PP Neue Montreal";
+    src: url("fonts/PPNeueMontreal-Book.woff") format(woff);
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: "PP Neue Montreal";
+    src: url("fonts/PPNeueMontreal-Regular.woff") format(woff);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "PP Neue Montreal";
+    src: url("fonts/PPNeueMontreal-Bold.woff") format(woff);
+    font-weight: 700;
+}
+
 :root{
     --primary-typeface: aktiv-grotesk, sans-serif;
     --font-weight_light: 300;
