@@ -111,7 +111,7 @@
 .project_title{
     font-size: 2.75rem;
     font-weight: var(--font-weight-light);
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 
 .showcase_wrapper iframe{
@@ -228,7 +228,7 @@
 
     .project_title{
         font-size: 1.75rem;
-        letter-spacing: -0.25px;
+        letter-spacing: 0;
     }
 
     .col_2-4{
