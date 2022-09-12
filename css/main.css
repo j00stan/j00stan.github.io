@@ -652,11 +652,3 @@ img{
     }
 
 }
-
-@media (prefers-color-scheme: dark) {
-
-    .nav_logo{
-        color: var(--secondary-color);
-    }
-
-}
