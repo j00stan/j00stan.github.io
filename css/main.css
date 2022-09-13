@@ -53,6 +53,7 @@ body{
     font-family: var(--primary-typeface);
     font-size: 1rem;
     font-weight: var(--font-weight_light);
+    letter-spacing: 0.5px;
     line-height: 1.6;
 }
 
