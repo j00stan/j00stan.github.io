@@ -60,6 +60,7 @@ h1,
 h2,
 h3,
 h4{
+    letter-spacing: 0.75px;
     line-height: 1;
 }
 
