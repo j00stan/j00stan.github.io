@@ -139,7 +139,7 @@ img{
 
 .nav{
     position: fixed;
-    top: 0;
+    top: 9rem;
     left: 0;
     right: 89%;
     z-index: 1;
