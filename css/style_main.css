@@ -391,6 +391,12 @@ h4{
     max-width: 60ch;
 }
 
+.work_description-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* work video */
 
 .work_video-container{
