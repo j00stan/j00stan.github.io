@@ -385,9 +385,15 @@ h4{
 }
 
 .work_description{
-    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    font-size: 1.125rem;
     font-weight: var(--font_weight-light);
-    line-height: 1.2;
+    max-width: 60ch;
+}
+
+.work_description-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* work video */
