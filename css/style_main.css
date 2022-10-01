@@ -385,16 +385,9 @@ h4{
 }
 
 .work_description{
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: var(--font_weight-light);
     letter-spacing: 0.25px;
-    max-width: 65ch;
-}
-
-.work_description-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* work video */
