@@ -239,13 +239,11 @@ h4{
 }
 
 .about_description-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto 2em 0;
 }
 
 .about_description{
-    font-size: 1rem;
+    font-size: 1.125rem;
     letter-spacing: 0.25px;
     max-width: 60ch;
 }
