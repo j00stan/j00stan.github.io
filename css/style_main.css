@@ -417,7 +417,7 @@ h4{
 .work_description{
     font-size: clamp(1.25rem, 3vw, 1.875rem);
     font-weight: var(--font_weight-light);
-    line-height: 1.1;
+    line-height: 1.3;
     letter-spacing: 0.25px;
 }
 
@@ -635,8 +635,7 @@ h4{
     }
 
     .work_description{
-        font-size: 1rem;
-        text-align: left;
+        line-height: 1.5;
     }
     
     .about_title-container{
