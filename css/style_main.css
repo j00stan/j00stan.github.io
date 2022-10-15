@@ -409,6 +409,11 @@ h4{
     text-align: center;
 }
 
+.work_description-container{
+    display: flex;
+    margin: 0 auto;
+}
+
 .work_description{
     font-size: clamp(1.25rem, 3vw, 1.875rem);
     font-weight: var(--font_weight-light);
