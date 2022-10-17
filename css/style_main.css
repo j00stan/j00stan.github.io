@@ -290,6 +290,7 @@ h4{
     display: flex;
     justify-content: center;
     z-index: 2;
+    mix-blend-mode: difference;
 }
 
 .nav_logo{
