@@ -591,47 +591,32 @@ h4{
 
     .section_work-link:hover + .section_work-reveal:nth-of-type(1),
     .section_work-link:focus + .section_work-reveal:nth-of-type(1){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
+        display: none;
     }
 
     .section_work-link:hover + .section_work-reveal:nth-of-type(2),
     .section_work-link:focus + .section_work-reveal:nth-of-type(2){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
+        display: none;
     }
 
     .section_work-link:hover + .section_work-reveal:nth-of-type(3),
     .section_work-link:focus + .section_work-reveal:nth-of-type(3){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
+        display: none;
     }
 
     .section_work-link:hover + .section_work-reveal:nth-of-type(4),
     .section_work-link:focus + .section_work-reveal:nth-of-type(4){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
+        display: none;
     }
 
     .section_work-link:hover + .section_work-reveal:nth-of-type(5),
     .section_work-link:focus + .section_work-reveal:nth-of-type(5){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
+        display: none;
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(6),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(6){
+        display: none;
     }
 
     .work_description{
