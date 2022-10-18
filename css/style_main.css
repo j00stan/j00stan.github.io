@@ -639,7 +639,7 @@ h4{
     }
     
     .about_title-container{
-        padding: 0;
+        margin-bottom: 0.5em;
     }
 
     #main_about{
