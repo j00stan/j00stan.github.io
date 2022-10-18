@@ -504,7 +504,7 @@ h4{
 
 /* responsive */
 
-@media screen and (max-width: 48em){
+@media screen and (max-width: 64em){
 
     :root{
         --grid: 1fr;
