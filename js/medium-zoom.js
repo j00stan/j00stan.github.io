@@ -1,10 +1,12 @@
 const images = Array.from(document.querySelectorAll("figure img"));
-images.forEach(img => {
+if ($(window).width() >= 991) {
+  images.forEach(img => {
     mediumZoom(img, {
       margin: 64, /* The space outside the zoomed image */
       background: "#fff", /* The background of the overlay */
-      scrollOffset: 40, /* The number of pixels to scroll to close the zoom */
-      container: null, /* Advanced - The viewport to render the zoom in */
-      template: null /* Advanced - The template element to display on zoom */
+      scrollOffset: 32, /* The number of pixels to scroll to close the zoom */
+      container: null, /* The viewport to render the zoom in */
+      template: null /* The template element to display on zoom */
     });
   });
+}
