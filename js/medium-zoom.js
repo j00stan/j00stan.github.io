@@ -1,4 +1,4 @@
-const images = Array.from(document.querySelectorAll("figure img"));
+const images = Array.from(document.querySelectorAll("img"));
 images.forEach(img => {
     mediumZoom(img, {
       margin: 0, /* The space outside the zoomed image */
