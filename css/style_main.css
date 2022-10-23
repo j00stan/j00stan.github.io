@@ -215,6 +215,7 @@ h4{
     grid-column: 1/7;
     position: sticky;
     top: 0;
+    z-index: 3;
     display: flex;
     align-items: center;
     height: 2.75rem;
@@ -298,8 +299,6 @@ h4{
 
 .nav{
     grid-column: 1/7;
-    position: sticky;
-    top: 5.5em;
     display: flex;
     justify-content: center;
     z-index: 2;
