@@ -651,6 +651,11 @@ h4{
         margin-bottom: 2.125em;
     }
 
+    .btn{
+        flex-grow: 1;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 32em){
