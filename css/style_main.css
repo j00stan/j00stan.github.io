@@ -437,6 +437,26 @@ h4{
     letter-spacing: 0.25px;
 }
 
+.work_credits-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--margin);
+}
+
+.work_credits-title{
+    font-weight: var(--font_weight-bold);
+}
+
+.work_credits-detail{
+    font-weight: var(--font_weight-bold);
+}
+
+.work_credits{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
 /* work video */
 
 .work_video-container{
