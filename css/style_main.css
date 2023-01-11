@@ -695,6 +695,10 @@ figure > img{
         margin-top: 1.125em;
     }
 
+    .about_title-container{
+        margin-bottom: 0.5em;
+    }
+
 }
 
 @media screen and (max-width: 32em){
