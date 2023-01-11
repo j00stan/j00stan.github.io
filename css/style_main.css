@@ -536,7 +536,51 @@ figure > img{
 
 /* responsive */
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 64em) {
+
+    .section_work-nav{
+        row-gap: 0.25em;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .section_work-link::after{
+        content: '';
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(1),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(1){
+        display: none;
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(2),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(2){
+        display: none;
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(3),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(3){
+        display: none;
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(4),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(4){
+        display: none;
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(5),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(5){
+        display: none;
+    }
+
+    .section_work-link:hover + .section_work-reveal:nth-of-type(6),
+    .section_work-link:focus + .section_work-reveal:nth-of-type(6){
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 48em){
 
     :root{
         --grid: 1fr;
@@ -624,46 +668,6 @@ figure > img{
 
     .nav{
         grid-column: 1;
-    }
-
-    .section_work-nav{
-        row-gap: 0.25em;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .section_work-link::after{
-        content: '';
-    }
-
-    .section_work-link:hover + .section_work-reveal:nth-of-type(1),
-    .section_work-link:focus + .section_work-reveal:nth-of-type(1){
-        display: none;
-    }
-
-    .section_work-link:hover + .section_work-reveal:nth-of-type(2),
-    .section_work-link:focus + .section_work-reveal:nth-of-type(2){
-        display: none;
-    }
-
-    .section_work-link:hover + .section_work-reveal:nth-of-type(3),
-    .section_work-link:focus + .section_work-reveal:nth-of-type(3){
-        display: none;
-    }
-
-    .section_work-link:hover + .section_work-reveal:nth-of-type(4),
-    .section_work-link:focus + .section_work-reveal:nth-of-type(4){
-        display: none;
-    }
-
-    .section_work-link:hover + .section_work-reveal:nth-of-type(5),
-    .section_work-link:focus + .section_work-reveal:nth-of-type(5){
-        display: none;
-    }
-
-    .section_work-link:hover + .section_work-reveal:nth-of-type(6),
-    .section_work-link:focus + .section_work-reveal:nth-of-type(6){
-        display: none;
     }
     
     .work_description-container{
