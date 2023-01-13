@@ -309,7 +309,6 @@ figure > img{
 
 .nav{
     margin-top: 5.625em;
-    margin-bottom: 0.5em;
     display: flex;
     justify-content: center;
     z-index: 2;
@@ -669,6 +668,7 @@ figure > img{
 
     .nav{
         grid-column: 1;
+        margin-bottom: 0.5em;
     }
     
     .work_description-container{
