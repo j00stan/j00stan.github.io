@@ -475,9 +475,14 @@ figure > img{
 
 /* work video */
 
+iframe{
+    border-radius: 1.5vh;
+}
+
 .work_video-container{
     position: relative;
     height: 0;
+    border-radius: 1.5vh;
 }
 
 /* footer nav */
