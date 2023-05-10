@@ -353,7 +353,7 @@ figure > img{
 }
 
 .section_work-link::after{
-    content: ' –';
+    content: ' —';
 }
 
 .section_work-link:nth-of-type(6)::after{
