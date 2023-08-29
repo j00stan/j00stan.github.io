@@ -266,23 +266,34 @@ figure > img{
 
 /* typography */
 
-.about_title-container{
-    margin-bottom: 1em;
+.about_me-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, min-content);
+    grid-gap: var(--margin);
 }
-
+ 
 .about_title{
     font-size: clamp(2.5rem, 6vw, 3.75rem);
     font-weight: var(--font_weight-light);
 }
 
+.about_title-container{
+    align-self: end;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    width: 75%;
+}
+
 .about_description-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    width: 75%;
 }
 
 .about_description{
-    font-size: 1.125rem;
+    font-size: 1rem;
     letter-spacing: 0.375px;
 }
 
@@ -290,8 +301,17 @@ figure > img{
     margin-top: 1em;
 }
 
+.about_image-container{
+    grid-column: 5/7;
+    grid-row: 1/4;
+}
+
 .about_image{
     border-radius: 1.5vh;
+}
+
+.row_3-4{
+    grid-row: 3/4;
 }
 
 /* main_home navigation */
