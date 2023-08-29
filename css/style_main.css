@@ -729,6 +729,33 @@ iframe{
         margin-top: 1.125em;
     }
 
+    .about_me-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, min-content);
+    }
+
+    .about_title-container{
+        grid-column: 1;
+        grid-row: 1/2;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .about_image-container{
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+
+    .about_description-container{
+        grid-column: 1;
+        grid-row: 3/4;
+        width: 100%;
+    }
+
+    .row_3-4{
+        grid-row: 4/5;
+    }
+
 }
 
 @media screen and (max-width: 32em){
