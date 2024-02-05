@@ -156,17 +156,6 @@
         </footer>
     <!-- ARCHIVE -->
         <section class="section_index grid">
-        <!-- ARROW -->
-            <div class="arrow">
-                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181.86 181.86">
-                    <g id="Layer_1-2" data-name="Layer 1">
-                      <g>
-                        <path class="cls-1" d="m94.89,123.04l24.77-26.35H41.18v-11.66h78.48l-24.77-26.35,8.64-7.92,37.15,40.18-37.15,40.18-8.64-8.06Z"/>
-                        <path class="cls-1" d="m90.93,181.86C40.79,181.86,0,141.07,0,90.93S40.79,0,90.93,0s90.93,40.79,90.93,90.93-40.79,90.93-90.93,90.93Zm0-170.19C47.22,11.66,11.66,47.22,11.66,90.93s35.56,79.27,79.27,79.27,79.26-35.56,79.26-79.27S134.64,11.66,90.93,11.66Z"/>
-                      </g>
-                    </g>
-                </svg>
-            </div>
             <nav class="section_index-nav col_1-7">
             <!-- THE GREAT EVICTION -->
                 <div class="section_index-link-container">
@@ -201,46 +190,6 @@
             </p>
         </marquee>
     </footer>
-<!-- SCRIPT -->
-    <script>
-        let arrow = document.querySelector('.arrow');
-        let link = document.querySelectorAll(".section_index-link").forEach(link =>{
-            let mouseX;
-            let mouseY;
-
-            window.addEventListener('mousemove', e => {
-                mouseX = e.clientX;
-                mouseY = e.clientY;
-            })
-
-            link.addEventListener('mouseenter', () =>{
-            gsap.to(arrow, 0, {
-                scale: 1,
-                opacity: 1,
-                top: '-30',
-                left: '-30',
-                rotate: 0,
-            })
-        })
-
-        link.addEventListener('mousemove', () =>{
-            gsap.to(arrow, 0, {
-                x: mouseX,
-                y: mouseY
-            })
-        })
-
-        link.addEventListener('mouseleave', () =>{
-            gsap.to(arrow, 0, {
-                scale: 0,
-                opacity: 0,
-                top: '0',
-                left: '0',
-                rotate: -45,
-            })
-        })
-        })
-    </script>
 <!--SCRIPT SOURCES -->
     <script src="js/observer.js"></script>
     <script src="js/medium-zoom.js"></script>
