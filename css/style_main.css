@@ -499,13 +499,13 @@ figure > img{
 /* archive */
 
 .section_archive{
-    margin: 8vw var(--margin);
+    margin: clamp(6em, 9em, 10em) var(--margin);
 }
 
 .archive_grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    grid-gap: 8vw;
+    grid-gap: clamp(6em, 9em, 10em);
 }
 
 .archive_grid-item{
