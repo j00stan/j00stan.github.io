@@ -254,6 +254,10 @@ figure > img{
     column-gap: var(--margin);
 }
 
+.header_nav-list:nth-of-type(3){
+    display: none;
+}
+
 .header_nav-list-link{
     text-decoration: none;
     font-weight: var(--font_weight-bold);
@@ -830,6 +834,14 @@ iframe{
 
     .row_3-4{
         grid-row: 4/5;
+    }
+
+    .header_nav-list:nth-of-type(2){
+        display: none;
+    }
+
+    .header_nav-list:nth-of-type(3){
+        display: flex;
     }
 
 }
