@@ -60,17 +60,6 @@ body{
     line-height: 1.6;
 }
 
-.arrow{
-    position: fixed;
-    left: 0;
-    pointer-events: none;
-    transition: all .3s;
-    top: 50%;
-    width: clamp(2.5rem, 6vw, 3.75rem);
-    transform: rotate(-45deg);
-    opacity: 0;
-}
-
 /* typography */
 
 h1,
