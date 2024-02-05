@@ -865,6 +865,10 @@ iframe{
         grid-gap: 4em;
     }
 
+    .section_index-link::after{
+        content: '';
+    }
+
 }
 
 @media screen and (max-width: 32em){
