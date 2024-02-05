@@ -844,6 +844,14 @@ iframe{
         display: flex;
     }
 
+    .section_archive{
+        margin: 4em var(--margin);
+    }
+    
+    .archive_grid{
+        grid-gap: 4em;
+    }
+
 }
 
 @media screen and (max-width: 32em){
