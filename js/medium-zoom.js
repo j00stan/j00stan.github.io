@@ -5,8 +5,8 @@ if ($(window).width() >= 991) {
       margin: 64, /* The space outside the zoomed image */
       background: "#fff", /* The background of the overlay */
       scrollOffset: 32, /* The number of pixels to scroll to close the zoom */
-      container: null, /* The viewport to render the zoom in */
-      template: null /* The template element to display on zoom */
+      container: '#zoom-container', /* The viewport to render the zoom in */
+      template: '#zoom-template', /* The template element to display on zoom */
     });
   });
 }

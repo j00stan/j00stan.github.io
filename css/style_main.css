@@ -665,6 +665,11 @@ iframe{
     border: 1px solid lightgray;
 }
 
+#zoom-container{
+    border-radius: 2vh;
+    filter: drop-shadow(var(--primary-color) 0 1em);
+}
+
 /* responsive */
 
 @media screen and (max-width: 64em) {
