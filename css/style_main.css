@@ -169,7 +169,7 @@ h4{
 /* base */
 
 figure > img{
-    border-radius: 2vh;
+    border-radius: 1.75vh;
 }
 
 /* buttons */
@@ -303,7 +303,7 @@ figure > img{
 }
 
 .about_image{
-    border-radius: 2vh;
+    border-radius: 1.75vh;
 }
 
 .row_3-4{
@@ -510,7 +510,7 @@ figure > img{
     position: relative;
     height: 0;
     align-self: center;
-    border-radius: 2vh;
+    border-radius: 1.75vh;
 }
 
 .archive_title{
@@ -563,7 +563,7 @@ figure > img{
     display: none;
     align-self: center;
     z-index: -1;
-    border-radius: 2vh;
+    border-radius: 1.75vh;
     overflow: hidden;
 }
 
@@ -597,13 +597,13 @@ figure > img{
 /* work video */
 
 iframe{
-    border-radius: 2vh;
+    border-radius: 1.75vh;
 }
 
 .work_video-container{
     position: relative;
     height: 0;
-    border-radius: 2vh;
+    border-radius: 1.75vh;
 }
 
 /* footer nav */
@@ -666,7 +666,7 @@ iframe{
 }
 
 #zoom-template{
-    border-radius: 2vh;
+    border-radius: 1.75vh;
     filter: drop-shadow(var(--primary-color) 0 1em);
 }
 
