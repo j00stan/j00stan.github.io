@@ -7,6 +7,7 @@ if ($(window).width() >= 991) {
       scrollOffset: 32, /* The number of pixels to scroll to close the zoom */
       container: null, /* The viewport to render the zoom in */
       template: '#zoom-template', /* The template element to display on zoom */
+      borderradius: 1.75,
     });
   });
 }
