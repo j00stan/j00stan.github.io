@@ -273,7 +273,7 @@ figure > img{
 
 .about_me-container{
     place-self: center;
-    padding: 6vw;
+    padding: 7vw;
 }
  
 .about_title{
@@ -290,7 +290,7 @@ figure > img{
 }
 
 .about_description{
-    font-size: 1.125rem;
+    font-size: 1rem;
     letter-spacing: 0.375px;
 }
 
@@ -300,6 +300,7 @@ figure > img{
 
 .about_image-container{
     place-self: center;
+    padding: 7vw;
 }
 
 .about_image{
