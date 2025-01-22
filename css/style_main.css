@@ -329,6 +329,7 @@ figure > img{
 /* main navigation */
 
 .nav{
+    position: sticky;
     margin-top: 5.625em;
     margin-bottom: 0.5em;
     display: flex;
