@@ -75,8 +75,12 @@ h4{
 }
 
 .work_collaboration-link{
-    color: inherit;
+    color: var(--primary-color);
     text-decoration: underline;
+}
+
+.work_collaboration-link:visited{
+    color: var(--primary-color);
 }
 
 .work_collaboration-link:focus,
