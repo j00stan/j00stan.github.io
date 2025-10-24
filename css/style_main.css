@@ -80,7 +80,7 @@ h4{
 }
 
 .work_collaboration-link:focus,
-.work_collaboration-linkk:hover{
+.work_collaboration-link:hover{
     color: var(--accent-color);
 }
 
