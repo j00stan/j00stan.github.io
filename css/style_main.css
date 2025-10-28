@@ -74,20 +74,6 @@ h4{
     font-weight: var(--font_weight-bold);
 }
 
-.work_collaboration-link{
-    color: var(--primary-color);
-    text-decoration: underline;
-}
-
-.work_collaboration-link:visited{
-    color: var(--primary-color);
-}
-
-.work_collaboration-link:focus,
-.work_collaboration-link:hover{
-    color: var(--accent-color);
-}
-
 /* css grid */
 
 .grid{
