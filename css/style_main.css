@@ -508,10 +508,6 @@ figure > img{
     letter-spacing: 0.25px;
 }
 
-.section_work-copy{
-
-}
-
 .work_description{
     font-size: clamp(1.25rem, 3vw, 1.875rem);
     font-weight: var(--font_weight-light);
@@ -757,15 +753,9 @@ iframe{
         padding: 0;
     }
 
-    .about_title-container{
-    }
-
     .about_image-container{
         margin-top: 1em;
         margin-bottom: 2.25em;
-    }
-
-    .about_description-container{
     }
 
     #main_about{
