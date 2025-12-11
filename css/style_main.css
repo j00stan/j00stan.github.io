@@ -480,11 +480,6 @@ figure > img{
     gap: var(--margin);
 }
 
-.work_showcase-flex > * {
-    width: auto;
-    height: auto;
-}
-
 .section_about{
     display: flex;
     align-items: stretch;
