@@ -972,4 +972,14 @@ iframe{
         left: 0;
         bottom: 0;
     }
+
+    .about_photo-container{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .about_photo{
+        height: auto;
+    }
 }
